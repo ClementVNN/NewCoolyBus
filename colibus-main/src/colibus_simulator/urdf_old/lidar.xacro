@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="lidar">
+
+  <!-- Include the Velodyne VLP-16 URDF -->
+<xacro:include filename="$(find velodyne_description)/urdf/VLP-16.urdf.xacro"/>
+
+</robot>
